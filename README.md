@@ -19,7 +19,7 @@ add this dependency in your gradle(app) file
 1. compile 'com.ramotion.foldingcell:folding-cell:1.2.1'
 
 
-2. Add com.ramotion.foldingcell.FoldingCell in your activity_layout.xml
+2. Add `com.ramotion.foldingcell.FoldingCell` in your activity_layout.xml
 
 '''
 <com.ramotion.foldingcell.FoldingCell
