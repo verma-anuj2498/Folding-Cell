@@ -44,8 +44,8 @@ Android 4.0
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             
-          # // here you can add your own widgets but make sure not to add margin attributes in them
-            
+          <!-- // here you can add your own widgets but make sure not to add margin attributes in them
+            -->
             
         </FrameLayout>
 ​
@@ -67,4 +67,4 @@ Android 4.0
             }
         });
         
-        ```
+        
