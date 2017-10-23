@@ -16,12 +16,12 @@ Android 4.0
 
 add this dependency in your gradle(app) file
 
-1. compile 'com.ramotion.foldingcell:folding-cell:1.2.1'
+1. `compile 'com.ramotion.foldingcell:folding-cell:1.2.1'`
 
 
 2. Add `com.ramotion.foldingcell.FoldingCell` in your activity_layout.xml
 
-'''
+```
 <com.ramotion.foldingcell.FoldingCell
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/folding_cell"
@@ -51,11 +51,12 @@ add this dependency in your gradle(app) file
 ​
 </com.ramotion.foldingcell.FoldingCell>
 
-'''
+```
 
 
 3. Now Come to java class
 
+```
  final FoldingCell abc= (FoldingCell) findViewById(R.id.folding_cell);
         abc.initialize(1000, Color.LTGRAY, 2);      // instead of LTGRAY you can give color of your choice
         abc.initialize(30, 1000, Color.LTGRAY, 2);
@@ -65,3 +66,5 @@ add this dependency in your gradle(app) file
                 abc.toggle(false);
             }
         });
+        
+        ```
