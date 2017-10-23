@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bck"
+    tools:context="com.example.black_pearl.foldingcell.MainActivity">
+
+    <com.ramotion.foldingcell.FoldingCell
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/folding_cell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        >
+         ​
+
+        <FrameLayout
+            android:id="@+id/cell_content_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:visibility="gone">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/emc"
+                    />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="ALBERT Einstein"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_height="250dp" />
+
+            </LinearLayout>
+        </FrameLayout>
+        ​
+        <FrameLayout
+            android:id="@+id/cell_title_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/einstein"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Einstein"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:background="#fff" />
+
+</LinearLayout>
+
+
+
+        </FrameLayout>
+
+
+
+    </com.ramotion.foldingcell.FoldingCell>
+
+
+
+
+
+    <com.ramotion.foldingcell.FoldingCell
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/folding_cell_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        >
+        ​
+
+        <FrameLayout
+            android:id="@+id/cell_content_view_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:visibility="gone">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/dnky"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="LOL!!!!\nChutiyaa"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:layout_height="250dp" />
+
+            </LinearLayout>
+        </FrameLayout>
+        ​
+        <FrameLayout
+            android:id="@+id/cell_title_view_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ass1"
+                    android:scaleType="centerCrop"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="Click to view full image"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:background="#fff" />
+
+            </LinearLayout>
+
+
+
+        </FrameLayout>
+
+
+
+    </com.ramotion.foldingcell.FoldingCell>
+
+
+
+
+
+
+</LinearLayout>
