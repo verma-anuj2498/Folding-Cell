@@ -21,7 +21,7 @@ Android 4.0
 
 2. Add `com.ramotion.foldingcell.FoldingCell` in your activity_layout.xml
 
-`
+```
 <com.ramotion.foldingcell.FoldingCell
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/folding_cell"
@@ -51,7 +51,7 @@ Android 4.0
 ​
 </com.ramotion.foldingcell.FoldingCell>
 
-`
+```
 
 
 3. Now Come to java class
